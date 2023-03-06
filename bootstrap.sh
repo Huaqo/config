@@ -1,8 +1,8 @@
 #!/bin/bash
 
-## Installs from Homebrew, PIP, mas and downloads manual installs
+git clone https://github.com/Huaqo/.dotfiles.git ~/.dotfiles
 
-git clone https://github.com/Huaqo/.dotfiles.git
+## Config file links
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.gitignore ~/.gitignore
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
@@ -38,8 +38,6 @@ brew install --cask vscodium
 brew install --cask webex
 brew install --cask zotero
 brew install python@3.11
-brew install git
-
 brew install pandoc
 brew install mas
 brew install neovim
@@ -71,6 +69,3 @@ curl -L -O https://download.esa.int/step/snap/9.0/installers/esa-snap_all_macos_
 curl -L -O https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip
 unzip logioptionsplus_installer.zip
 rm logioptionsplus_installer.zip
-
-## Missing
-Cisco AnyConnect Secure Mobility Client
