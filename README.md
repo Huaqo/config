@@ -23,6 +23,7 @@ brew install git
 4. Clone repo
 ```zsh
 git clone https://github.com/Huaqo/.dotfiles.git ~/.dotfiles
+```
 
 5. Open repo
 
