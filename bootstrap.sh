@@ -5,7 +5,11 @@ ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.gitignore ~/.gitignore
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
-ln -s ~/.dotfiles/.zshrc  ~/.zshrc 
+ln -s ~/.dotfiles/.zshrc  ~/.zshrc
+
+cd ~/
+mkdir nvim/
+ln -s ~/.dotfiles/init.vim  ~/.config
 
 ## Brew installs
 brew install --cask ableton-live-suite
