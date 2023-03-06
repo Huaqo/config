@@ -8,8 +8,11 @@ ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/.zshrc  ~/.zshrc
 
 cd ~/
+mkdir .config/
+cd .config
 mkdir nvim/
-ln -s ~/.dotfiles/init.vim  ~/.config
+cd ~/
+ln -s ~/.dotfiles/init.vim  ~/.config/nvim/init.vim
 
 ## Brew installs
 brew install --cask ableton-live-suite
