@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/Huaqo/.dotfiles.git ~/.dotfiles
-
 ## Config file links
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.gitignore ~/.gitignore
