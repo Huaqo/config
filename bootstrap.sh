@@ -6,6 +6,8 @@ git clone https://github.com/Huaqo/.dotfiles.git ~/.dotfiles
 ln -s ~/.dotfiles/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/.gitignore ~/.gitignore
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
+ln -s ~/.dotfiles/.zshrc  ~/.zshrc 
 
 ## Brew installs
 brew install --cask ableton-live-suite
