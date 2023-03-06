@@ -1,0 +1,16 @@
+[user]
+	name = Huaqo
+	email = mail@huaqo.com
+[http]
+	cookiefile = %USERPROFILE%\\.gitcookies
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesFile = ~/.gitignore
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
