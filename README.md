@@ -20,7 +20,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install git
 ```
 
-4. Open repo
+4. Clone repo
+```zsh
+git clone https://github.com/Huaqo/.dotfiles.git ~/.dotfiles
+
+5. Open repo
 
 ```zsh
 cd .dotfiles
