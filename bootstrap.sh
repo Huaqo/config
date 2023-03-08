@@ -13,6 +13,7 @@ cd .config
 mkdir nvim/
 cd ~/
 ln -s ~/.dotfiles/init.vim  ~/.config/nvim/init.vim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
 
 ## Brew installs
 brew install --cask ableton-live-suite
