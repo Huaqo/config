@@ -14,6 +14,5 @@ eval "$(github-copilot-cli alias -- "$0")"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zprofile.post.zsh" ]] && builtin source "$HOME/.fig/shell/zprofile.post.zsh"
-source "/Users/huaqo/Developer/emsdk/emsdk_env.sh"
 
 
