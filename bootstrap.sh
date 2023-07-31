@@ -7,17 +7,7 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/.zshrc  ~/.zshrc
 
-cd ~/
-mkdir .config/
-cd .config
-mkdir nvim/
-cd ~/
-ln -s ~/.dotfiles/init.vim  ~/.config/nvim/init.vim
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-
 ## Brew installs
-xcode-select --install
-NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew install --cask mactex-no-gui
 brew install --cask mathpix-snipping-tool
