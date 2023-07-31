@@ -22,6 +22,7 @@ brew install --cask ueli
 brew install --cask webex
 brew install --cask zotero
 brew install --cask visual-studio-code
+brew install bitwarden-cli
 brew install python@3.11
 brew install pandoc
 brew install mas
