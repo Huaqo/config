@@ -3,9 +3,11 @@
 :set tabstop=4
 :set mouse=a
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 
-Plug 'https://github.com/vim-airline/vim-airline'
-Plug 'https://github.com/preservim/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/tagbar'
 
 call plug#end()

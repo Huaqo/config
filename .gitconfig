@@ -1,6 +1,6 @@
 [user]
 	name = Huaqo
-	email = 63307192+Huaqo@users.noreply.github.com
+	email = mail@huaqo.com
 [http]
 	cookiefile = %USERPROFILE%\\.gitcookies
 [filter "lfs"]
