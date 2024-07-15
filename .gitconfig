@@ -1,0 +1,9 @@
+[user]
+    name = Huaqo
+    email = joa.gottlebe@gmail.com
+
+[credential]
+    helper = osxkeychain
+
+[core]
+	excludesfile = /Users/huaqo/.gitignore_global
