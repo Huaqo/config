@@ -17,6 +17,8 @@ ln -s ~/config/.gitignore_global ~/.gitignore_global
 # Programms
 
 ```
+brew tap huaqo/huaqo
+brew install pdfc
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 brew install firefox
