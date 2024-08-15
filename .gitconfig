@@ -7,3 +7,5 @@
 
 [core]
 	excludesfile = /Users/huaqo/.gitignore_global
+[http]
+	postBuffer = 524288000
