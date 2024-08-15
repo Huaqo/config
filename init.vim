@@ -6,6 +6,7 @@ Plug 'karb94/neoscroll.nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lua/plenary.nvim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -28,6 +29,10 @@ set guioptions-=L
 set guioptions-=R
 set encoding=utf-8
 set fileencoding=utf-8
+
+syntax enable
+set background=dark
+colorscheme gruvbox
 
 lua << EOF
 require'nvim-tree'.setup {
