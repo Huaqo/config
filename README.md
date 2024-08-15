@@ -1,7 +1,7 @@
 # Installation
 
 ```bash
-ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/configs/.zshrc ~/.zshrc
-ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/configs/.gitconfig ~/.gitconfig
-ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs/configs/.gitignore_global ~/.gitignore_global
+ln -s ~/config/.zshrc ~/.zshrc
+ln -s ~/config/.gitconfig ~/.gitconfig
+ln -s ~/config/.gitignore_global ~/.gitignore_global
 ```
