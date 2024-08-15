@@ -7,7 +7,6 @@ PROMPT='%F{yellow}%1~%f $ '
 # Paths
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-export PATH="$HOME/Library/Mobile Documents/com~apple~CloudDocs/bin:$PATH"
 
 # Homebrew sourcing
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
