@@ -1264,7 +1264,7 @@
 	Zg1rDXYNfw2MDY8NnA2lDaoNsgAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAA21
 	</data>
 	<key>BlinkText</key>
-	<false/>
+	<true/>
 	<key>CommandString</key>
 	<string></string>
 	<key>CursorBlink</key>
@@ -1343,6 +1343,10 @@
 	ADIANwBJAEwAUQBTAFoAYABrAHgAfgCLAKAApwDSAPwA/gEAAQIBCQEOARQBFgEYARoN
 	Zg1rDXYNfw2MDY8NnA2lDaoNsgAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAA21
 	</data>
+	<key>CursorType</key>
+	<integer>0</integer>
+	<key>DisableANSIColor</key>
+	<false/>
 	<key>Font</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -1434,15 +1438,33 @@
 	ADIANwBJAEwAUQBTAFoAYABrAHgAfgCLAKAApwDSAPwA/gEAAQIBCQEOARQBFgEYARoN
 	Zg1rDXYNfw2MDY8NnA2lDaoNsgAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAA21
 	</data>
+	<key>ShouldRestoreContent</key>
+	<false/>
+	<key>ShowActiveProcessInTabTitle</key>
+	<false/>
 	<key>ShowActiveProcessInTitle</key>
+	<false/>
+	<key>ShowActivityIndicatorInTab</key>
 	<false/>
 	<key>ShowCommandKeyInTitle</key>
 	<false/>
+	<key>ShowComponentsWhenTabHasCustomTitle</key>
+	<false/>
 	<key>ShowDimensionsInTitle</key>
 	<false/>
+	<key>ShowRepresentedURLInTabTitle</key>
+	<true/>
 	<key>ShowRepresentedURLInTitle</key>
 	<false/>
+	<key>ShowRepresentedURLPathInTabTitle</key>
+	<true/>
 	<key>ShowShellCommandInTitle</key>
+	<false/>
+	<key>ShowTTYNameInTabTitle</key>
+	<false/>
+	<key>ShowTTYNameInTitle</key>
+	<false/>
+	<key>ShowWindowSettingsNameInTitle</key>
 	<false/>
 	<key>TerminalType</key>
 	<string>xterm-256color</string>
