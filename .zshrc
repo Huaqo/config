@@ -1,26 +1,51 @@
-# Remove login information
-touch ~/.hushlogin
+touch ~/.hushlogin # Remove login information
 
-# Change Prompt
-PROMPT='%F{yellow}%1~%f $ '
+PROMPT='%F{yellow}%1~%f $ ' # Change Shell Prompt
 
-# Paths
-eval "$(/opt/homebrew/bin/brew shellenv)"
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)" # Init Homebrew environment
+eval "$(starship init zsh)" # Init starship prompt
 
-# Compiler Flags
-export CPPFLAGS="-I/opt/homebrew/include $CPPFLAGS"
-export LDFLAGS="-L/opt/homebrew/lib $LDFLAGS"
+export EDITOR="vim" # Default code editor
 
-# Homebrew sourcing
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias make='gmake' # Make from Homebrew
+alias gcc="gcc-14" # GCC from homebrew
+alias ls='ls -G -a -F -1 -X' # List (ls) colors
 
-# Make from Homebrew
-alias make='gmake'
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh #zsh-autosuggestions
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh #zsh-syntax-highlighting
 
-# Standard code editor
-export EDITOR="code"
+##### PYQGIS
+#alias pyqgis='/Applications/QGIS.app/Contents/MacOS/bin/python3.9'
+#export QGIS_PREFIX_PATH="/Applications/QGIS.app/Contents/MacOS"
+#export PROJ_LIB="/Applications/QGIS.app/Contents/Resources/proj"
+#export PYTHONPATH="/Applications/QGIS.app/Contents/Resources/python:/Applications/QGIS.app/Contents/Resources/python/plugins:$PYTHONPATH"
+##### PYQGIS
 
-# Ls colors
-alias ls='ls -G -a -F -1 -X'
+##### CONDA
+# # >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+# __conda_setup="$('/Users/huaqo/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/Users/huaqo/miniforge3/etc/profile.d/conda.sh" ]; then
+#         . "/Users/huaqo/miniforge3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/Users/huaqo/miniforge3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
+# # <<< conda initialize <<<
+# # >>> mamba initialize >>>
+# # !! Contents within this block are managed by 'mamba shell init' !!
+# export MAMBA_EXE='/Users/huaqo/miniforge3/bin/mamba';
+# export MAMBA_ROOT_PREFIX='/Users/huaqo/miniforge3';
+# __mamba_setup="$("$MAMBA_EXE" shell hook --shell zsh --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__mamba_setup"
+# else
+#     alias mamba="$MAMBA_EXE"  # Fallback on help from mamba activate
+# fi
+# unset __mamba_setup
+# # <<< mamba initialize <<<
+##### CONDA
