@@ -1,5 +1,6 @@
 tap "huaqo/huaqo"
 
+brew "gcc"
 brew "bitwarden-cli"
 brew "calc"
 brew "cloc"
