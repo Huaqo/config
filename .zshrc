@@ -4,10 +4,12 @@ PROMPT='%F{yellow}%1~%f $ ' # Change Shell Prompt
 
 eval "$(/opt/homebrew/bin/brew shellenv)" # Init Homebrew environment
 
+export GIT_CONFIG_GLOBAL=~/.config/git/.gitconfig
+
 eval "$(starship init zsh)" # Init starship prompt
 export STARSHIP_CONFIG=~/.config/starship/starship.toml # Change config location
 
-export KITTY_CONFIG_DIRECTORY=~
+alias tmux='tmux -f ~/.config/tmux/tmux.conf'
 
 export EDITOR="vim" # Default code editor
 

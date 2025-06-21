@@ -2,7 +2,7 @@
 	name = Huaqo
 	email = joa.gottlebe@gmail.com
 [core]
-	excludesfile = /Users/huaqo/.gitignore_global
+	excludesfile = /Users/huaqo/.config/git/.gitignore
 [http]
 	postBuffer = 524288000
 [credential "https://gitup.uni-potsdam.de"]
@@ -13,6 +13,7 @@
 	process = git-lfs filter-process
 	required = true
 [credential]
+	helper = 
 	helper = /usr/local/share/gcm-core/git-credential-manager
 [credential "https://dev.azure.com"]
 	useHttpPath = true

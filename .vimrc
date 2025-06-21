@@ -23,7 +23,7 @@ let g:lsp_diagnostics_enabled = 0
 let g:lsp_diagnostics_float_cursor = 0
 let g:lsp_diagnostics_update_in_insert_mode = 0
 
-autocmd BufWritePre * if &filetype != '' | LspDocumentFormatSync | endif
+"autocmd BufWritePre * if &filetype != '' | LspDocumentFormatSync | endif
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<C-h>"
 
