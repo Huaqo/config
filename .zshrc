@@ -3,8 +3,8 @@ touch ~/.hushlogin # Remove login information
 PROMPT='%F{yellow}%1~%f $ ' # Change Shell Prompt
 
 eval "$(/opt/homebrew/bin/brew shellenv)" # Init Homebrew environment
-eval "$(starship init zsh)" # Init starship prompt
 
+eval "$(starship init zsh)" # Init starship prompt
 export EDITOR="vim" # Default code editor
 
 alias make='gmake' # Make from Homebrew
