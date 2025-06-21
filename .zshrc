@@ -4,6 +4,8 @@ PROMPT='%F{yellow}%1~%f $ ' # Change Shell Prompt
 
 eval "$(/opt/homebrew/bin/brew shellenv)" # Init Homebrew environment
 
+alias python='python3'
+
 export GIT_CONFIG_GLOBAL=~/.config/git/.gitconfig
 
 eval "$(starship init zsh)" # Init starship prompt
@@ -14,7 +16,7 @@ alias tmux='tmux -f ~/.config/tmux/tmux.conf'
 export EDITOR="vim" # Default code editor
 
 alias make='gmake' # Make from Homebrew
-alias gcc="gcc-14" # GCC from homebrew
+alias gcc="gcc-15" # GCC from homebrew
 alias ls='ls -G -a -F -1 -X' # List (ls) colors
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh #zsh-autosuggestions
